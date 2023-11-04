@@ -30,23 +30,7 @@ export default function Footer() {
             <div className="items-center flex flex-wrap">
                 <iframe title="booking-old" width='100%' height='585px' src='https://zoho-amer241.zohobookings.com/portal-embed#/customer/mzeit' frameBorder='0' allowFullScreen='' > 
                 </iframe>
-              {/* <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-                />
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
-                <div className="md:pr-12">
-                  <h5>Schedule Your Call With M-Zeit founder, Amer</h5>
-                  <h3>Free 15-Minute Demo Call</h3>
-                  <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Our main model is that we work with our customers on choosing the right services and service options that would result in the biggest growth in their business.
-                    We always keep our customers informed of the expected growth in their business by continuous reports.
-                  </p>
-                </div>
-              </div> */}
+              
             </div>
           </div>
         </section>

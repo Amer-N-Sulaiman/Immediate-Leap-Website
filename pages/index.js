@@ -35,7 +35,7 @@ export default function Landing() {
     <>
       <Head>
         <title>
-          Imperium SEO
+          ImmediateLeap
         </title>
         <meta name="description" content="A digital marketing agency that helps businesses grow their brand and increase their sales top notch email marketing at the lowest fees possible"/>
       </Head>
@@ -43,7 +43,8 @@ export default function Landing() {
       <main style={{marginTop: '66px'}}>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
         style={{
-          background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));"
+          background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));",
+          border: "none"
         }}
         >
           <div
@@ -51,12 +52,16 @@ export default function Landing() {
             style={{
               // backgroundImage:
               //   "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-              background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));"
+              background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));",
+              border: "none"
             }}
           >
             <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-75 bg-black"
+              style={{
+                border: "none"
+              }}
             ></span>
           </div>
           
@@ -79,10 +84,10 @@ export default function Landing() {
                   }
                 }}>
                   <h1 className="text-white font-semibold mt-5">
-                    Outrank Your Competitors In Your Area
+                  Revolutionize Your Bathroom Remodeling Business with an Immediate Risk-Free Leap.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    We will help you rank your business in the first page of google business profiles in your area.
+                    We Only Profit After We Help You Prosper!
                   </p>
                   <a href="#booking">
                     <button
@@ -109,7 +114,7 @@ export default function Landing() {
                   },
                   marginBottom: "30px"
                 }}>
-                  <Image src="/GoogleBusinessSEO.png" width="322" height="440"/>
+                  <img alt="Immediate Leap Marketing Funnel" src="MarketingFunnel.png" style={{width: "400px"}}/>
                 </Box>
               </div>
             </div>
@@ -135,7 +140,7 @@ export default function Landing() {
           </div>
         </div>
 
-        <section className="pb-20 bg-blueGray-200 -mt-24">
+        <section className="pb-20 bg-blueGray-200 -mt-24" style={{border: "none"}}>
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -144,10 +149,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Welcome many NEW clients and customers on the daily basis</h6>
+                    <h6 className="text-xl font-semibold">Win Together: Performance-Based Collaboration</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      The vast majority of the traffic you&apos;ll receive from Google will be people that have never heard about your business before. <br />
-                      Giving you the opportunity to gain new loyal customers.
+                      We believe in shared success. With ImmediateLeap, we only profit when you do. Our commission-based model ensures your growth is our top priority.
                     </p>
                   </div>
                 </div>
@@ -161,10 +165,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">If your business is not in the first page, you can consider it not listed at all.</h6>
+                    <h6 className="text-xl font-semibold">Immediate Leap in Leads Quality and Quantity</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      According to an analysis of 4 million Google search results, just 0.63% of people click on the second page of Google search results (Backlinko, 2022). <br />
-                      And this statistic is very similar to our experience with google business profile listings.
+                      Prepare for an influx of leads that exceed your expectations. Our expertly crafted strategies guarantee a steady stream of high-quality leads for your bathroom remodeling business.
                     </p>
                   </div>
                 </div>
@@ -177,9 +180,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Grab Your Place in The First Page in No Time</h6>
+                    <h6 className="text-xl font-semibold">Proven Strategy Through Years Of Trial</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      While it may take up to 3 months, most of our clients rank in the first page of google business listings within a month of working with us.
+                      Over the last two years, we&apos;ve honed a winning formula for bathroom remodeling business growth. Our strategy, rooted in social media ads and highly optimized funnels, has consistently driven exceptional results.
                     </p>
                   </div>
                 </div>
@@ -255,14 +258,14 @@ export default function Landing() {
               </div>
             </div>
           </div>
-          <Reviews />
+          {/* <Reviews /> */}
         </section>
-        <section className="relative py-20">
+        <section className="relative py-20" style={{border: "none"}}>
           <div className="flex flex-wrap items-center mt-32">
             <Box className="w-full md:w-5/12 px-4 mr-auto ml-auto" sx={{display: {xs: "block", md: "none"}}}>
                   <img
                     alt="..."
-                    src="seostockside.png"
+                    src="LeadGen.png"
                     // 
                     className="w-full align-middle"
                   />
@@ -287,25 +290,27 @@ export default function Landing() {
                     <MiscellaneousServicesIcon fontSize='large' color='primary' />
                   </i>
                 </div>
-                <h4>How Can We Help You Grow Your Business</h4>
+                <h4>Our Performance-Based Services</h4>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal" style={{color: '#1976D2'}}>
-                  Top Notch SEO For Your Google Business Profile
+                  Top-Performing Social Media Ads, Complemented by Meticulously Optimized Funnels.
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  We will help you get your business ranked in the first page of Google listings in your area.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                   This improve in ranking has multiplied the organic traffic to our clients many times over. As getting your business profile discovered in search results will direct all of the customers and clients in your area to your business.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  Many of our clients has achieved this results within the first month of working with us, while it many take around 3 months.
-                </p>
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">At ImmediateLeap, we take pride in offering performance-based solutions designed to elevate your bathroom remodeling business. Our service portfolio consists of two crucial components that work in perfect synergy to drive your success.</p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">With our expertly crafted social media advertising campaigns, we target and engage the right audience, generating leads that deliver measurable results you can see and appreciate.</p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">Complementing this is our highly optimized funnel creation and hosting service. We build marketing funnels that efficiently nurture incoming traffic into high-quality leads, significantly improving your conversion rates.</p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">What truly sets us apart is our innovative payment structure. We believe that you should only pay when you succeed. With ImmediateLeap, you won&apos;t encounter any upfront costs. We only profit when you do, ensuring a risk-free partnership that&apos;s completely focused on your growth.</p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">Your success is our top priority. ImmediateLeap isn&apos;t just about delivering services; it&apos;s about securing your continuous growth. Our performance-based model reflects our unwavering confidence in our ability to provide tangible, quantifiable outcomes for your business.</p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">Ready to embark on a journey of expansion and achievement with ImmediateLeap? Let&apos;s take the first step together.</p>
                 
               </div>
               <Box className="w-full md:w-5/12 px-4 mr-auto ml-auto" sx={{display: {xs: "none", md: "block"}}}>
                   <img
                     alt="..."
-                    src="seostockside.png"
+                    src="LeadGen.png"
                     // 
                     className="w-full align-middle"
                   />
@@ -332,7 +337,7 @@ export default function Landing() {
         
         
 
-        <section className="pb-20 relative block bg-blueGray-800">
+        <section className="pb-20 relative block bg-blueGray-800" style={{border: "none"}}>
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: "translateZ(0)" }}
@@ -361,14 +366,14 @@ export default function Landing() {
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                   <b style={{fontSize: '1.3em'}}>Who will you be speaking to?</b> <br />
-                  <b>Amer Sulaiman</b>, the founder of Imperium SEO, B.Sc. Computer Science, 5+ years of helping businesses grow with SEO services.
+                  <b>Amer Sulaiman</b>, the founder of ImmediateLeap, B.Sc. Computer Science, 5+ years of helping businesses market their services.
                 </p>
               </div>
             </div>
             
           </div>
         </section>
-        <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
+        <section className="relative block py-24 lg:pt-0 bg-blueGray-800" style={{border: "none"}}>
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               {/* <div className="w-full lg:w-6/12 px-4"> */}

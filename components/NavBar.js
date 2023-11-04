@@ -2,23 +2,24 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { List  } from 'react-bootstrap-icons';
 
 function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="sm" variant='dark' style={{position: "fixed", top: '0', width: '100%', zIndex: '1000', background: "#080A0F"}}>
+    <Navbar collapseOnSelect expand="lg" variant='dark' style={{position: "fixed", top: '0', width: '100%', zIndex: '1000', background: "#080A0F"}}>
       <Container>
         <Navbar.Brand href="/">
           
           
           <img src="logo.png" alt="logo" style={{height: '40px'}}/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls='response-navbar-nav' />
-        <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className="me-auto">
-            {/* <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Why we charge very low</Nav.Link> */}
-          </Nav>
+        <Navbar.Toggle aria-controls='response-navbar-nav'>
+          <List />
+          </Navbar.Toggle>
+        <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
+          
           <Nav className="">
-            <Nav.Link href="#booking" style={{marginLeft: "30px", color: 'White'}}>Book Your Free Discovery Call</Nav.Link>
+            <Nav.Link href="#booking" style={{float: "right", color: 'White'}}>Book Your Free Discovery Call</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         
