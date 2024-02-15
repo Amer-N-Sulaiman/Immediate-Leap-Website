@@ -84,7 +84,7 @@ export default function Landing() {
                   }
                 }}>
                   <h1 className="text-white font-semibold mt-5">
-                    Amplifying Your Agency Growth
+                  Revolutionize Your Bathroom Remodeling Business with an Immediate Risk-Free Leap.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     We Only Profit After We Help You Prosper!
@@ -149,9 +149,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Empowering Your Agency Journey</h6>
+                    <h6 className="text-xl font-semibold">Win Together: Performance-Based Collaboration</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      We specialize in a myriad of digital solutions designed to catalyze growth, expand your reach, and enhance your overall performance in the dynamic world of digital marketing.
+                      We believe in shared success. With ImmediateLeap, we only profit when you do. Our commission-based model ensures your growth is our top priority.
                     </p>
                   </div>
                 </div>
@@ -165,9 +165,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Tailored Solutions for Agency Prosperity</h6>
+                    <h6 className="text-xl font-semibold">Immediate Leap in Leads Quality and Quantity</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Our suite of digital solutions is crafted to adapt and evolve with the specific needs and goals of your agency. From cutting-edge social media strategies to innovative content creation, we&apos;ve got you covered.
+                      Prepare for an influx of leads that exceed your expectations. Our expertly crafted strategies guarantee a steady stream of high-quality leads for your bathroom remodeling business.
                     </p>
                   </div>
                 </div>
@@ -180,9 +180,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Strategic Synergy for Success</h6>
+                    <h6 className="text-xl font-semibold">Proven Strategy Through Years Of Trial</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      We leverage the latest trends and technologies to shape strategies that not only keep your SMMA ahead of the curve but propel it into a realm of sustained growth.
+                      Over the last two years, we&apos;ve honed a winning formula for bathroom remodeling business growth. Our strategy, rooted in social media ads and highly optimized funnels, has consistently driven exceptional results.
                     </p>
                   </div>
                 </div>
@@ -290,9 +290,9 @@ export default function Landing() {
                     <MiscellaneousServicesIcon fontSize='large' color='primary' />
                   </i>
                 </div>
-                <h4>Let&apos;s Leap Together</h4>
+                <h4>Our Performance-Based Services</h4>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal" style={{color: '#1976D2'}}>
-                  Ready to Elevate Your Agency?
+                  Top-Performing Social Media Ads, Complemented by Meticulously Optimized Funnels.
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">At ImmediateLeap, we take pride in offering performance-based solutions designed to elevate your bathroom remodeling business. Our service portfolio consists of two crucial components that work in perfect synergy to drive your success.</p>
 
