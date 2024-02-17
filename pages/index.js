@@ -10,6 +10,8 @@ import Fab from '@mui/material/Fab';
 
 
 
+
+
 import { useRouter } from 'next/router'
 
 
@@ -21,6 +23,7 @@ import { useRouter } from 'next/router'
 import NavBar from "../components/NavBar.js";
 import Footer from "../components/Footer.js";
 import Reviews from "../components/Reviews.js"
+import RequestForm from "../components/RequestForm.js";
 
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
 
@@ -43,7 +46,7 @@ export default function Landing() {
       <main style={{marginTop: '66px'}}>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
         style={{
-          background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));",
+          background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1))",
           border: "none"
         }}
         >
@@ -52,7 +55,7 @@ export default function Landing() {
             style={{
               // backgroundImage:
               //   "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-              background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1));",
+              background: "linear-gradient(rgba(30,41,59,1), rgba(0,212,255,1))",
               border: "none"
             }}
           >
@@ -362,13 +365,24 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white" style={{marginTop: '60px'}}>
-                  Book Your Free Discovery Call.
+                  Want to us to help you grow your business?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  <b style={{fontSize: '1.3em'}}>Who will you be speaking to?</b> <br />
-                  <b>Amer Sulaiman</b>, the founder of ImmediateLeap, B.Sc. Computer Science, 5+ years of helping businesses market their services.
+                  <b style={{fontSize: '1.3em'}}>Submit Your Request Below</b> <br />
+                  We will get back to you soon on the email you submit in your request
                 </p>
+
               </div>
+
+            </div>
+            {/* Repeat */}
+            <div className="flex flex-wrap justify-center">
+              <div className="w-full lg:w-6/12 px-4">
+                <div className="w-full px-4">
+                  <RequestForm />
+                </div>
+              </div>
+
             </div>
             
           </div>
@@ -377,9 +391,7 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               {/* <div className="w-full lg:w-6/12 px-4"> */}
-              <div className="w-full px-4">
-                <iframe id="booking" title="bookingframe" src="https://koalendar.com/e/meet-with-amer-sulaiman?embed=true" width="100%" height="800px" frameborder="0"></iframe>
-              </div>
+              
             </div>
           </div>
         </section>
