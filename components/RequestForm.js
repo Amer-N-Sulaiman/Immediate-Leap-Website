@@ -1,10 +1,13 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Spinner from 'react-bootstrap/Spinner';
 
 import { useState } from 'react';
 
-import cookie from 'js-cookie'
+import cookie from 'js-cookie';
+
+import { Row, Col } from 'react-bootstrap';
 
 
 
@@ -15,6 +18,9 @@ export default function RequestForm(){
     const [service, setService] = useState('');
 
     const [apiData, setApiData] = useState('')
+
+    const [formMessage, setFormMessage] = useState('')
+    const [isSubmittingRequest, setIsSubmittingRequest] = useState(false)
 
 
         
@@ -33,6 +39,7 @@ export default function RequestForm(){
         
 
         try {
+            setIsSubmittingRequest(true)
             const response = await fetch('/api/contacts', {
               method: 'POST',
               headers: {
@@ -44,9 +51,17 @@ export default function RequestForm(){
             const data = await response.json();
             const userId = data.userId
             cookie.set('userId', userId)
+            setFormMessage("Thank you for submitting your request! We will email you soon.")
+            setName('')
+            setEmail('')
+            setAgencyUrl('')
+            setService('')
+            setIsSubmittingRequest(false)
         } catch (error) {
             console.error('Error fetching data:', error.message);
-          }
+            setFormMessage("There was a problem submitting your request, please try again.")
+            setIsSubmittingRequest(false)
+        }
     }
 
 
@@ -88,9 +103,29 @@ export default function RequestForm(){
                             <option value="Marketing">White Label Marketing</option>
                         </Form.Select>
                     </Form.Group>
-                    <Button variant="primary" type="submit" style={{marginTop: '10px'}}>
-                        Submit
-                    </Button>
+                    
+                    <div style={{width:"100%"}}>
+                        
+                        {!isSubmittingRequest && <Button variant="primary" type="submit" style={{marginTop: '10px'}}>
+                            Submit
+                        </Button>}
+                        {isSubmittingRequest && <Button variant="primary" type="submit" style={{marginTop: '10px'}}>
+                            <Spinner
+                                as="span"
+                                animation="border"
+                                size="sm"
+                                role="status"
+                                aria-hidden="true"
+                                style={{marginRight: "5px"}}
+                            />
+                            Submitting
+                        </Button>}
+                    </div>
+                    
+                    
+                    <Form.Text className="text-muted mt-5">
+                        {formMessage}
+                    </Form.Text>
                 </Form>
             </div>
         </>
