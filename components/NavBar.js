@@ -19,7 +19,7 @@ function NavBar() {
         <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
           
           <Nav className="">
-            <Nav.Link href="#booking" style={{float: "right", color: 'White'}}>Book Your Free Discovery Call</Nav.Link>
+            <Nav.Link href="#sendRequest" style={{float: "right", color: 'White'}}>Send Your Request</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         

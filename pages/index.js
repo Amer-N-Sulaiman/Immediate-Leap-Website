@@ -92,7 +92,7 @@ export default function Landing() {
                   <p className="mt-4 text-lg text-blueGray-200">
                     We Only Profit After We Help You Prosper!
                   </p>
-                  <a href="#booking">
+                  <a href="#sendRequest">
                     <button
                           className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 mt-4"
                           type="button"
@@ -101,9 +101,9 @@ export default function Landing() {
                           }}
                           >
                             
-                      <p style={{fontSize: '1.2em', fontWeight: 'bold', marginBottom: '0', color: '#f1f1f1'}}>Speak To Our Team</p>
+                      <p style={{fontSize: '1.2em', fontWeight: 'bold', marginBottom: '0', color: '#f1f1f1'}}>Send Your Request</p>
                       
-                        Schedule Your Free Discovery Call
+                        
                       </button>
                   </a>
                   
@@ -364,7 +364,7 @@ export default function Landing() {
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white" style={{marginTop: '60px'}}>
+                <h2 id="sendRequest" className="text-4xl font-semibold text-white" style={{marginTop: '60px'}}>
                   Want to us to help you grow your business?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
@@ -396,9 +396,9 @@ export default function Landing() {
           </div>
         </section>
 
-        <a href="#booking">
+        <a href="#sendRequest">
           <Fab variant="extended" style={{position: 'fixed', bottom: 30, right: 30}} >
-            Book Free Discovery Call
+            Send Your Request
           </Fab>
         </a>
         
